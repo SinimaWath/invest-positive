@@ -22,6 +22,6 @@ class Start implements TelegramHandler {
     }
 }
 
-export const startHandle = (client: TelegramClient) => {
-    client.handle('/start', new Start({} as any));
+export const startHandle = (client: TelegramClient, userUsecase: UserUsecase) => {
+    client.handle('/start', new Start(userUsecase));
 };
