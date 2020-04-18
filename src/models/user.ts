@@ -1,7 +1,7 @@
 export type Token = string;
-export type UserId = string;
+export type ChatID = string;
 
 export type User = {
     token: Token;
-    id: UserId;
+    id: ChatID;
 };
