@@ -1,3 +1,7 @@
 import './bootstrap';
+import { startHandle } from './user/delivery/telegram/handler';
+import { TelegramClientImpl } from './telegram/client';
 
-console.log('start');
+const telegramClient = new TelegramClientImpl();
+
+startHandle(telegramClient);
