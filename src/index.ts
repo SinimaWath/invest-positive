@@ -3,7 +3,7 @@ import './bootstrap';
 import { TelegramClientImpl } from './telegram/client';
 import { UserUsecaseImpl } from './user/usecase/usecase';
 */
-import {Telegraf} from 'telegraf';
+import Telegraf from 'telegraf';
 
 //const telegramClient = new TelegramClientImpl();
 //const userUsecase = new UserUsecaseImpl();
