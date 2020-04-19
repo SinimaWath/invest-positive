@@ -3,7 +3,7 @@
     "module": "commonjs",
     "esModuleInterop": true,
     "target": "es6",
-    "noImplicitAny": true,
+    "noImplicitAny": false, // TODO сказать владу шо я тут поменял на фолс
     "moduleResolution": "node",
     "sourceMap": true,
     "outDir": "dist",
